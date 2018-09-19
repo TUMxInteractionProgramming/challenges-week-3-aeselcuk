@@ -35,6 +35,7 @@ h1 {
 
 /* CHANNELS LIST */
 
+
 /* #4 #sweat #channels */
 ul {
     /* #3 #channels #list modifies h2 to ul */
@@ -143,3 +144,19 @@ li img {
     margin-left: 17.5%;
 }
 
+
+/*Channels positioning left and 40% of the whole browser*/
+#channels{
+    position: absolute;
+    left: 0%;
+    width: 40%;
+    height: inherit;
+}
+
+/*Chats positioning left starting 40% and 60% of the whole browser*/
+#chat{
+    position: absolute;
+    left: 40%;
+    width: 60%;
+    height: inherit;
+}
