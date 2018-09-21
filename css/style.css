@@ -30,8 +30,19 @@ button, strong {
 h1 {
     background-color: #3F51B5;
     color: white;
+    height:70px;
+    line-height: 70px;
+    padding-left: 15px;
+    font-size: 25px;
+    position: relative;
 }
-
+h1 span{
+    margin-left: 50px;
+}
+h1 img{ 
+    position: absolute;
+    bottom: 0%;
+}
 
 /* CHANNELS LIST */
 
